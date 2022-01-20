@@ -153,7 +153,7 @@ const Form = ({ cars, setCars, car, setCar }) => {
               id="time"
               type="time"
               className="border-2 border-red-600 p-2 w-full rounded  mb-5"
-              placeholder="Phone number"
+              placeholder="Phone Number"
               value={time}
               onChange={onChangeTime}
             />
