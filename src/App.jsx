@@ -17,6 +17,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("Cars", JSON.stringify(cars));
+    // ojo stringify
   }, [cars]);
 
   const deleteCar = (id) => {
